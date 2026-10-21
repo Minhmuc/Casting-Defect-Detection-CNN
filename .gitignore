@@ -1,0 +1,13 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+data/
+outputs/
+outputs_tensorflow/
+archive_pytorch/
+.venv-tf/
+Thumbs.db
+.DS_Store
+archive_pytorch/

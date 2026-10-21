@@ -1,0 +1,13 @@
+# Python 3.11 hoặc 3.12. Tạo môi trường mới cho bản TensorFlow.
+tensorflow==2.20.0
+keras==3.12.0
+tf2onnx==1.17.0
+numpy==1.26.4
+onnx==1.17.0
+onnxruntime>=1.20,<2
+pillow>=10,<12
+matplotlib>=3.9,<4
+pandas>=2.2,<3
+scikit-learn>=1.5,<2
+ipykernel>=6.29,<8
+jupyter>=1,<2
