@@ -1,5 +1,19 @@
 # Đồ án Học sâu — CNN TensorFlow/Keras và ONNX
 
+<!-- LOCAL-UPLOAD-START -->
+## Upload dữ liệu từ máy lên Colab
+
+Trong [casting-cnn-tensorflow.ipynb](casting-cnn-tensorflow.ipynb) đã có một ô code **Upload dữ liệu từ máy tính lên Google Colab**, dùng `files.upload()`.
+
+1. Nén thư mục chứa `def_front/` và `ok_front/` thành một file ZIP.
+2. Mở bản notebook đã cập nhật trên Colab, chạy ô upload và bấm **Choose Files** để chọn ZIP.
+3. Chờ giải nén; nếu có nhiều bộ dữ liệu, chọn theo danh sách. Chạy tiếp các ô cấu hình/đọc dữ liệu, DATA_DIR được đặt tự động.
+
+Không cần mount Google Drive. Trên VS Code/local, bỏ qua ô upload. Đây chỉ là code được thêm vào; trợ lý không chạy upload, kiểm thử hoặc train.
+
+Nếu Colab đang mở bản từ GitHub, cần commit/push thay đổi hoặc upload trực tiếp bản notebook mới; sửa local không tự cập nhật tab Colab đang mở.
+<!-- LOCAL-UPLOAD-END -->
+
 Mở **[casting-cnn-tensorflow.ipynb](casting-cnn-tensorflow.ipynb)**. Đây là notebook mới để bạn tự thực hiện và giải thích bài, chưa có cell nào được chạy, chưa có trọng số hay kết quả TensorFlow. Không cần backend, thiết kế hệ thống hoặc giao diện web.
 
 Bản PyTorch và kết quả đã chạy trước đây được giữ trong `archive_pytorch/`, không dùng làm kết quả cho bản TensorFlow này. `data/raw/` giữ nguyên dữ liệu local để bạn sử dụng.
